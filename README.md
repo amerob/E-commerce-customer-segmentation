@@ -1,7 +1,7 @@
 # E-Commerce Customer Segmentation with RFM Analysis & KMeans Clustering
 
 
-[View Interactive Plot](path_to_html/3d_scatter_plot.html)
+[View Interactive Plot](/3d_scatter_plot.html)
 *3D visualization of customer clusters*
 
 
