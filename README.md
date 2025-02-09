@@ -1,7 +1,7 @@
 # E-Commerce Customer Segmentation
 
 
-![3d_plot](https://github.com/user-attachments/assets/2ff3ded1-5d81-4a1e-96d1-511c8a444d80)
+> ![3d_plot](https://github.com/user-attachments/assets/2ff3ded1-5d81-4a1e-96d1-511c8a444d80)
 
 ## Overview
 
