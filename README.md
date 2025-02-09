@@ -23,22 +23,22 @@ The project segments e-commerce customers using RFM Analysis (Recency, Frequency
    - Identify issues: missing IDs, negative quantities, inconsistent codes.
 
 2. **🧹 Clean Data**
-- Convert Invoice/StockCode to strings; apply regex filters.
-- Remove records with missing Customer IDs and zero-priced items.
+  - Convert Invoice/StockCode to strings; apply regex filters.
+  - Remove records with missing Customer IDs and zero-priced items.
 
 4. **🛠️ Feature Engineering**  
-- Aggregate Customer-Level Features.
+  - Aggregate Customer-Level Features.
 
 5. **📊 Visualize & Remove Outliers**  
-- Plot distributions; remove outliers using IQR.
+  - Plot distributions; remove outliers using IQR.
 
-6. **🔄 Transform & Cluster**  
-   - Standardize features.
-   - Run KMeans (k=2–12); select optimal k (e.g., k=4) via inertia/silhouette scores.
+6. **🔄 Transform & Cluster**
+  - Standardize features.
+  - Run KMeans (k=2–12); select optimal k (e.g., k=4) via inertia/silhouette scores.
 
-7. **🔍 Interpret & Dashboard**  
-   - Label clusters (Retain, Re-Engage, Nurture, Reward).
-   - Visualize clusters; build interactive dashboard with Plotly Dash.
+8. **🔍 Interpret & Dashboard**  
+  - Label clusters (Retain, Re-Engage, Nurture, Reward).
+  - Visualize clusters; build interactive dashboard with Plotly Dash.
 
 ## Requirements
 
@@ -57,15 +57,23 @@ The project segments e-commerce customers using RFM Analysis (Recency, Frequency
 
 Clone the repository and install the dependencies:
 
-```bash
-# Clone the repository
-git clone https://github.com/amerob/E-commerce-customer-segmentation.git
-cd E-commerce-customer-segmentation
+- Clone the repository
 
-# Create and activate a virtual environment
-python3 -m venv env
-source env/bin/activate  # Linux/Mac
-env\Scripts\activate     # Windows
+  ```bash
+  git clone https://github.com/amerob/E-commerce-customer-segmentation.git
+  cd E-commerce-customer-segmentation
+  ```
 
-# Install dependencies
-pip install -r requirements.txt
+- Create and activate a virtual environment
+
+  ```bash
+  python3 -m venv env
+  source env/bin/activate  # Linux/Mac
+  env\Scripts\activate     # Windows
+  ```
+
+- Install dependencies
+
+  ```bash
+  pip install -r requirements.txt
+  ```
