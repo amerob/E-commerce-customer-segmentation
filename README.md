@@ -23,22 +23,22 @@ The project segments e-commerce customers using RFM Analysis (Recency, Frequency
    - Identify issues: missing IDs, negative quantities, inconsistent codes.
 
 2. **🧹 Clean Data**
-  - Convert Invoice/StockCode to strings; apply regex filters.
-  - Remove records with missing Customer IDs and zero-priced items.
+    - Convert Invoice/StockCode to strings; apply regex filters.
+    - Remove records with missing Customer IDs and zero-priced items.
 
 4. **🛠️ Feature Engineering**  
-  - Aggregate Customer-Level Features.
+    - Aggregate Customer-Level Features.
 
 5. **📊 Visualize & Remove Outliers**  
-  - Plot distributions; remove outliers using IQR.
+    - Plot distributions; remove outliers using IQR.
 
 6. **🔄 Transform & Cluster**
-  - Standardize features.
-  - Run KMeans (k=2–12); select optimal k (e.g., k=4) via inertia/silhouette scores.
+    - Standardize features.
+    - Run KMeans (k=2–12); select optimal k (e.g., k=4) via inertia/silhouette scores.
 
 8. **🔍 Interpret & Dashboard**  
-  - Label clusters (Retain, Re-Engage, Nurture, Reward).
-  - Visualize clusters; build interactive dashboard with Plotly Dash.
+    - Label clusters (Retain, Re-Engage, Nurture, Reward).
+    - Visualize clusters; build interactive dashboard with Plotly Dash.
 
 ## Requirements
 
