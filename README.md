@@ -1,6 +1,7 @@
-# E-Commerce Customer Segmentation with RFM Analysis & KMeans Clustering
+# E-Commerce Customer Segmentation
 
-![3D Visualization of Customer Clusters](https://github.com/user-attachments/assets/46ea5f57-c9e1-408b-83de-f8f8a984cbeb)
+
+![3d_plot](https://github.com/user-attachments/assets/2ff3ded1-5d81-4a1e-96d1-511c8a444d80)
 
 ## Overview
 
