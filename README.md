@@ -7,9 +7,8 @@
 
 The project segments e-commerce customers using RFM Analysis (Recency, Frequency, Monetary) and K-Means clustering to enable targeted marketing strategies.
 
-- [Download the Dataset](https://archive.ics.uci.edu/ml/datasets/Online+Retail+II)
+- [Download the Dataset 📥](https://archive.ics.uci.edu/ml/datasets/Online+Retail+II)
 
-[![Download the dataset](https://img.icons8.com/ios/50/000000/download.png)](https://archive.ics.uci.edu/ml/datasets/Online+Retail+II)
 
 
 ## Key Features
